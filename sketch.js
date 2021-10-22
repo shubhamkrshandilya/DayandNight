@@ -15,7 +15,7 @@ function preload() {
    grass = loadImage("assets/grass.png");
    deer = loadImage("assets/deer.png");
  }
-
+/* this api only called once */
 function setup(){
    createCanvas(800,600);
   
@@ -30,6 +30,8 @@ function setup(){
   bgb = 0;
   opacity = 255;
 }
+
+
 
 function draw(){
   background(bgr, bgg, bgb);
